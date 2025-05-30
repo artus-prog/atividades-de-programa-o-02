@@ -1,0 +1,6 @@
+#Solicite ao usuário um número de dias e converta-o para anos, meses e dias.
+dias = float(input("Digite o número de dias: "))
+anos = dias/365
+meses = dias/30 
+dias = dias/1
+print(f"O número de dias em anos é {anos:.0f}, em meses é {meses:.0f}, e em dias é {dias}")
