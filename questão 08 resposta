@@ -1,0 +1,7 @@
+#Peça ao usuário dois números e calcule a soma, subtração, multiplicação e divisão entre eles.
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+print(f"A soma destes números é {numero1 + numero2}")
+print(f"A subtração destes números é {numero1 - numero2}")
+print(f"A multiplicação destes números é {numero1 * numero2}")
+print(f"A divisão destes números é {numero1 / numero2}")
