@@ -1,0 +1,6 @@
+#Peça ao usuário a distância de uma viagem e a velocidade média do veículo, e
+calcule o tempo necessário para a viagem.
+Distancia = float(input("Digite a distancia em quilometros entre o ponto de partida e o de chegada: "))
+Velocidade = float(input("Digite a velocidade em k/h média do veículo: "))
+Tempo = Distancia/Velocidade
+print(f"O tempo de viagem foi de {Tempo:.2f} horas")
